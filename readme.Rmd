@@ -1,0 +1,12 @@
+---
+title: "Readme"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## About
+
+This is a lowly data pipeline for integrating Google Forms data into a simple R Markdown document in the R programming language.
