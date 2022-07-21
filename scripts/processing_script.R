@@ -42,6 +42,5 @@ file.rename(from = "data/master_data.rds",
 saveRDS(new_data, "data/master_data.rds")
 
 #Removing added objects from the environment====
-rm(list = setdiff(ls(), "data_updated"))
 message("Processing Script Executed and Completed. Returning to Dock...")
   

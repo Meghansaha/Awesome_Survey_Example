@@ -2,7 +2,6 @@
 
 # Data Load-in===
 games_data <- readRDS("data/new_data_games.rds")
-music_data <- readRDS("data/new_data_music.rds")
 
 # Making a visual for if people like games====
 games_viz <- games_data %>%
